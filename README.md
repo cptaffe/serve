@@ -21,11 +21,12 @@ and be rid of it.
 
 ## Usage
 
-Usage is very simple
+Usage is very simple, open a termianl, cd into the directory you would like to serve, and run `serve`.
 ```sh
-# cd to directory to serve from
-cd dir/subdir/
-# run server
-serve
-# (optionally with port number)
-serve 80
+$ cd ~/dev/
+$ serve
+```
+You can also optionally add a port number. __Note:__ you must be root to use port 80.
+```sh
+# optionally with port number
+$ sudo serve 80
