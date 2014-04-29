@@ -12,6 +12,7 @@ go build serve.go
 mv ./serve /usr/local/bin
 ```
 in a terminal to compile `serve.go` to `serve` and move it to your `/usr/local/bin`.
+
 To remove this tool, type
 ```sh
 rm /usr/local/bin/serve
