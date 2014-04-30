@@ -30,3 +30,12 @@ You can also optionally add a port number. __Note:__ you must be root to use por
 ```sh
 # optionally with port number
 $ sudo serve 80
+```
+
+## License
+
+If you've never seen an MIT license, check out the LICENSE.
+
+## Authors
+
++ Connor Taffe (@cptaffe)
