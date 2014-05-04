@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	port := "4000"
+	port := "4000"	// default port
 	if len(os.Args) == 2{
 		port = os.Args[1]
 	}
