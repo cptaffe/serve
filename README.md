@@ -18,13 +18,16 @@ Usage is very simple, open a terminal, cd into the directory you would like to s
 ```sh
 # serve current directory at :4000
 $ serve
-# serve ~/go at :8080/h/
-$ serve -p 8080 -d ~/go -s /h/
 ```
 You can also optionally add a port number. __Note:__ you must be root to use port 80.
 ```sh
 # optionally with port number
 $ sudo serve 80
+```
+There are also other options, -p for port number, -d for directory, and -s for an address sub-dir.
+```sh
+# serve ~/go at :8080/h/
+$ serve -p 8080 -d ~/go -s /h/
 ```
 
 ## License
