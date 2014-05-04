@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"error"
+	"errors"
 )
 
 const (
@@ -63,7 +63,7 @@ func main() {
 	if err != nil {
 		fmt.Printf(BEGIN+" %s "+ERROR, err)
 	}
-	
+
 	http.Handle(s.Sub, http.StripPrefix(s.Sub, http.FileServer(http.Dir(s.Dir))))
 	// Serves at port
 	fmt.Printf("\033[36m#\033[0m Serving at :%s\n", s.Port)
