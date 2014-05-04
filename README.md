@@ -14,7 +14,7 @@ mv ./serve /usr/local/bin
 
 ## Usage
 
-Usage is very simple, open a termianl, cd into the directory you would like to serve, and run `serve`.
+Usage is very simple, open a terminal, cd into the directory you would like to serve, and run `serve`.
 ```sh
 # serve current directory at :4000
 $ serve
