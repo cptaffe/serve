@@ -16,7 +16,7 @@ mv ./serve /usr/local/bin
 
 Usage is very simple, open a terminal, cd into the directory you would like to serve, and run `serve`.
 ```sh
-# serve current directory at :4000
+# serve current directory at :8080
 $ serve
 ```
 You can also optionally add a port number. __Note:__ you must be root to use port 80.
