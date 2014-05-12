@@ -20,7 +20,7 @@ type Server struct {
 
 func ParseArgs() (*Server, error) {
 	dir := flag.String("d", ".", "directory")
-	port := flag.String("p", "4000", "port")
+	port := flag.String("p", "8080", "port")
 	sub := flag.String("s", "/", "server prefix")
 	flag.Parse() // handles its own errors
 	s := &Server{Dir: *dir, Port: *port, Sub: *sub}
